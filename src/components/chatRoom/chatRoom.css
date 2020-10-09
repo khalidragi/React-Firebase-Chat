@@ -1,0 +1,8 @@
+.chatroom {
+  margin-top: 5rem;
+}
+
+.chatroom .chatroom__body {
+  display: flex;
+  flex-direction: column;
+}

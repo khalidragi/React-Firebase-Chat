@@ -1,0 +1,49 @@
+.message {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+.message__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message__content span {
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: gray;
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent .message__content {
+  align-items: flex-end;
+}
+
+.sent p {
+  color: white;
+  background-color: #3083dc;
+  padding: 0.4rem 1rem;
+  border-radius: 8px 8px 0px 8px;
+  text-align: right;
+  font-weight: 300;
+}
+.received p {
+  color: white;
+  background-color: #2c2c54;
+  padding: 0.4rem 1rem;
+  border-radius: 8px 8px 8px 0px;
+  font-weight: 300;
+}
+
+.chatroom__body img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}

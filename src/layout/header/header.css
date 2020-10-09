@@ -1,0 +1,38 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0.5rem;
+  border-bottom: solid 0.5px #c4c4c4;
+}
+.header .header__user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 15%;
+}
+
+.header .header__user img {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.header .header__brand {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  margin-left: 1.1rem;
+  color: #2c2c54;
+}
+
+.header .header__sign-out {
+  padding: 0;
+  background-color: transparent;
+  margin-right: 0.5rem;
+}
